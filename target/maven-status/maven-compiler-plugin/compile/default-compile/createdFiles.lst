@@ -1,0 +1,12 @@
+profiler\controller\MovieController.class
+profiler\model\Movie.class
+profiler\MainApp.class
+profiler\model\User.class
+profiler\model\QMovie.class
+profiler\model\QMovieRatedByUser.class
+profiler\model\QUser.class
+profiler\repository\UserRepository.class
+profiler\repository\MovieRepository.class
+profiler\external\PreselectionServer.class
+profiler\controller\UserController.class
+profiler\model\MovieRatedByUser.class
