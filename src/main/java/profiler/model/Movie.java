@@ -9,8 +9,8 @@ public class Movie {
     @Id
     String id;
     String title;
-    String rtAudienceNumRatings;
-    String rtAudienceScore;
+    double rtAudienceNumRatings;
+    double rtAudienceScore;
 
     public String getId() {
         return id;
@@ -28,19 +28,19 @@ public class Movie {
         this.title = title;
     }
 
-    public String getRtAudienceNumRatings() {
+    public double getRtAudienceNumRatings() {
         return rtAudienceNumRatings;
     }
 
-    public void setRtAudienceNumRatings(String rtAudienceNumRatings) {
+    public void setRtAudienceNumRatings(double rtAudienceNumRatings) {
         this.rtAudienceNumRatings = rtAudienceNumRatings;
     }
 
-    public String getRtAudienceScore() {
+    public double getRtAudienceScore() {
         return rtAudienceScore;
     }
 
-    public void setRtAudienceScore(String rtAudienceScore) {
+    public void setRtAudienceScore(double rtAudienceScore) {
         this.rtAudienceScore = rtAudienceScore;
     }
 

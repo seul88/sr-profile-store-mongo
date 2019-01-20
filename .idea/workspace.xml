@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e5343953-945c-4152-b6e7-bf3f245d638a" name="Default" comment="" />
+    <list default="true" id="e5343953-945c-4152-b6e7-bf3f245d638a" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/profiler/repository/RateRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sr-profile-store-mongo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sr-profile-store-mongo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/profiler/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/profiler/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/profiler/model/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/profiler/model/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/profiler/model/MovieRatedByUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/profiler/model/MovieRatedByUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/profiler/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/profiler/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/profiler/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/profiler/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/profiler/model/Movie.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/profiler/model/Movie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/profiler/model/MovieRatedByUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/profiler/model/MovieRatedByUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/profiler/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/profiler/model/User.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,8 +28,8 @@
       <file leaf-file-name="MovieController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/profiler/controller/MovieController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="33" column="47" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="47" />
+            <state relative-caret-position="24">
+              <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -27,8 +40,8 @@
       <file leaf-file-name="PreselectionServer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/profiler/external/PreselectionServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="26" selection-start-column="26" selection-end-column="26" />
+            <state relative-caret-position="68">
+              <caret line="4" selection-start-line="4" selection-end-line="16" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -36,17 +49,8 @@
       <file leaf-file-name="UserRepository.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/profiler/repository/UserRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/profiler/controller/UserController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="884">
-              <caret line="67" column="9" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
+            <state relative-caret-position="153">
+              <caret line="9" selection-start-line="9" selection-end-line="14" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -54,20 +58,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <file leaf-file-name="MovieRepository.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/profiler/repository/MovieRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="30" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="30" />
+            <state relative-caret-position="119">
+              <caret line="7" selection-start-line="7" selection-end-line="15" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainApp.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/profiler/MainApp.java">
+      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/profiler/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="8" column="35" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="35" />
+            <state relative-caret-position="238">
+              <caret line="107" lean-forward="true" selection-start-line="105" selection-end-line="117" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -78,8 +85,8 @@
       <file leaf-file-name="Movie.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/profiler/model/Movie.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="32" />
+            <state relative-caret-position="-401">
+              <caret line="5" selection-start-line="5" selection-end-line="12" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#320#321#0" expanded="true" />
@@ -104,17 +111,23 @@
       <file leaf-file-name="MovieRatedByUser.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/profiler/model/MovieRatedByUser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="36" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="36" />
+            <state relative-caret-position="476">
+              <caret line="40" column="1" lean-forward="true" selection-start-line="9" selection-end-line="40" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#435#436#0" expanded="true" />
+                <element signature="e#464#465#0" expanded="true" />
+                <element signature="e#508#509#0" expanded="true" />
+                <element signature="e#544#545#0" expanded="true" />
+                <element signature="e#578#579#0" expanded="true" />
+                <element signature="e#608#609#0" expanded="true" />
+                <element signature="e#654#655#0" expanded="true" />
+                <element signature="e#692#693#0" expanded="true" />
+                <element signature="e#723#724#0" expanded="true" />
+                <element signature="e#750#751#0" expanded="true" />
+                <element signature="e#790#791#0" expanded="true" />
+                <element signature="e#822#823#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -122,8 +135,20 @@
       <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/profiler/model/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="170">
+              <caret line="10" selection-start-line="10" selection-end-line="38" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="507">
+              <caret line="63" selection-start-line="63" selection-end-line="63" />
             </state>
           </provider>
         </entry>
@@ -135,8 +160,8 @@
       <list>
         <option value="Jsp File" />
         <option value="jsf" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -184,16 +209,17 @@
         <option value="$PROJECT_DIR$/src/main/java/com/historygo/controller/place/MovieController.java" />
         <option value="$PROJECT_DIR$/src/main/java/profiler/controller/place/MovieController.java" />
         <option value="$PROJECT_DIR$/src/main/java/profiler/controller/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/profiler/model/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/profiler/model/Movie.java" />
         <option value="$PROJECT_DIR$/src/main/java/profiler/controller/ViewController.java" />
         <option value="$PROJECT_DIR$/src/main/java/profiler/repository/MovieRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/profiler/controller/MovieController.java" />
         <option value="$PROJECT_DIR$/src/main/java/profiler/repository/UserRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/profiler/external/PreselectionServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/profiler/repository/RateRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/profiler/model/Movie.java" />
         <option value="$PROJECT_DIR$/src/main/java/profiler/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/profiler/model/MovieRatedByUser.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/profiler/model/MovieRatedByUser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/profiler/model/User.java" />
       </list>
     </option>
   </component>
@@ -222,7 +248,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
@@ -239,29 +265,29 @@
           <expand>
             <path>
               <item name="sr-profile-store-mongo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="historyGo-Webservice-mv-db" type="462c0819:PsiDirectoryNode" />
+              <item name="sr-profile-store-mongo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sr-profile-store-mongo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="historyGo-Webservice-mv-db" type="462c0819:PsiDirectoryNode" />
+              <item name="sr-profile-store-mongo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sr-profile-store-mongo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="historyGo-Webservice-mv-db" type="462c0819:PsiDirectoryNode" />
+              <item name="sr-profile-store-mongo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sr-profile-store-mongo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="historyGo-Webservice-mv-db" type="462c0819:PsiDirectoryNode" />
+              <item name="sr-profile-store-mongo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sr-profile-store-mongo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="historyGo-Webservice-mv-db" type="462c0819:PsiDirectoryNode" />
+              <item name="sr-profile-store-mongo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -269,7 +295,7 @@
             </path>
             <path>
               <item name="sr-profile-store-mongo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="historyGo-Webservice-mv-db" type="462c0819:PsiDirectoryNode" />
+              <item name="sr-profile-store-mongo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -278,7 +304,7 @@
             </path>
             <path>
               <item name="sr-profile-store-mongo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="historyGo-Webservice-mv-db" type="462c0819:PsiDirectoryNode" />
+              <item name="sr-profile-store-mongo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -287,7 +313,7 @@
             </path>
             <path>
               <item name="sr-profile-store-mongo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="historyGo-Webservice-mv-db" type="462c0819:PsiDirectoryNode" />
+              <item name="sr-profile-store-mongo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -296,7 +322,7 @@
             </path>
             <path>
               <item name="sr-profile-store-mongo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="historyGo-Webservice-mv-db" type="462c0819:PsiDirectoryNode" />
+              <item name="sr-profile-store-mongo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -305,7 +331,7 @@
             </path>
             <path>
               <item name="sr-profile-store-mongo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="historyGo-Webservice-mv-db" type="462c0819:PsiDirectoryNode" />
+              <item name="sr-profile-store-mongo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -460,18 +486,21 @@
       <workItem from="1533459526413" duration="12712000" />
       <workItem from="1547918697836" duration="12262000" />
       <workItem from="1547998294675" duration="508000" />
+      <workItem from="1547998854608" duration="2943000" />
+      <workItem from="1548002459785" duration="4206000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62798000" />
+    <option name="totallyTimeSpent" value="69947000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.078891255" side_tool="true" visible="true" weight="0.32897604" />
-      <window_info active="true" anchor="right" id="Maven Projects" order="3" visible="true" weight="0.13166311" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.07995736" side_tool="true" visible="true" weight="0.32897604" />
+      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.13166311" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -481,16 +510,16 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.9248401" weight="0.39978212" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49626866" weight="0.32897604" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49573562" weight="0.32897604" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.9211087" weight="0.32897604" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.92004263" visible="true" weight="0.32897604" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17963752" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18283582" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -509,14 +538,19 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/profiler/repository/UserRepository.java</url>
+          <line>9</line>
+          <properties />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/profiler/repository/UserRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/profiler/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
@@ -538,42 +572,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/profiler/controller/ViewController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/errorMsg.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/hello.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/profiler/controller/ViewController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/errorMsg.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/hello.jsp" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/style.css" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/users.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="23" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/users.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -618,20 +622,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/style.css" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/app.js" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.5.4.RELEASE/spring-boot-autoconfigure-1.5.4.RELEASE.jar!/org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="185">
@@ -653,34 +645,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/users.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/hello.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/errorMsg.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/users.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/hello.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/errorMsg.jsp" />
     <entry file="file://$PROJECT_DIR$/src/main/java/profiler/repository/UserRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -688,13 +656,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/profiler/controller/ViewController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="45" column="19" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/profiler/controller/ViewController.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1547">
@@ -717,59 +679,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/app.js" />
     <entry file="file://$PROJECT_DIR$/target/generated-sources/annotations/com/historygo/controller/QPlace.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1173">
-          <caret line="69" column="29" selection-start-line="69" selection-start-column="8" selection-end-line="69" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/hello.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="67" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/users.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="28" column="68" selection-start-line="28" selection-start-column="68" selection-end-line="28" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/errorMsg.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="93" selection-start-column="93" selection-end-column="93" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/profiler/controller/ViewController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/profiler/repository/MovieRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/hello.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/users.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/errorMsg.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/profiler/controller/ViewController.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -781,57 +697,37 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="8" column="35" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/profiler/repository/UserRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/profiler/repository/RateRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="187">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/profiler/controller/MovieController.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="33" column="47" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/profiler/external/PreselectionServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="26" selection-start-column="26" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/profiler/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="67" column="9" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="507">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/profiler/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="38" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/profiler/model/Movie.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="32" />
+        <state relative-caret-position="-401">
+          <caret line="5" selection-start-line="5" selection-end-line="12" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#320#321#0" expanded="true" />
@@ -854,15 +750,70 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/profiler/model/MovieRatedByUser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        <state relative-caret-position="476">
+          <caret line="40" column="1" lean-forward="true" selection-start-line="9" selection-end-line="40" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#435#436#0" expanded="true" />
+            <element signature="e#464#465#0" expanded="true" />
+            <element signature="e#508#509#0" expanded="true" />
+            <element signature="e#544#545#0" expanded="true" />
+            <element signature="e#578#579#0" expanded="true" />
+            <element signature="e#608#609#0" expanded="true" />
+            <element signature="e#654#655#0" expanded="true" />
+            <element signature="e#692#693#0" expanded="true" />
+            <element signature="e#723#724#0" expanded="true" />
+            <element signature="e#750#751#0" expanded="true" />
+            <element signature="e#790#791#0" expanded="true" />
+            <element signature="e#822#823#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/profiler/repository/MovieRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="36" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="36" />
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="15" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/profiler/repository/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="14" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/profiler/external/PreselectionServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/profiler/controller/MovieController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/profiler/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="107" lean-forward="true" selection-start-line="105" selection-end-line="117" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

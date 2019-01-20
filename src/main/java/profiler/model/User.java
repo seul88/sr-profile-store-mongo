@@ -13,13 +13,11 @@ public class User {
 
     @Id
     private String id;
-    private List<Movie> movies;
-
+    private List<MovieRatedByUser> movies;
 
     public User() {
         this.movies = new ArrayList<>();
     }
-
 
     public String getId() {
         return id;
@@ -29,13 +27,13 @@ public class User {
         this.id = id;
     }
 
-    public List<Movie> getMovies() {
+    public List<MovieRatedByUser> getMovies() {
         return movies;
     }
 
-    public void addMovie(Movie movie){ this.movies.add(movie);}
+    public void addMovie(MovieRatedByUser movie){ this.movies.add(movie);}
 
-    public void setMovies(List<Movie> movies) {
+    public void setMovies(List<MovieRatedByUser> movies) {
         this.movies = movies;
     }
 }

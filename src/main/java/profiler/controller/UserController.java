@@ -3,6 +3,7 @@ package profiler.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+import profiler.model.MovieRatedByUser;
 import profiler.repository.UserRepository;
 import profiler.repository.MovieRepository;
 import profiler.external.PreselectionServer;
@@ -57,33 +58,43 @@ public class UserController {
 
 
     @PutMapping("/movie")
-    public void addMovieToUserList(@RequestBody String userId, @RequestBody String movieId){
+    public void addMovieToUserList(@RequestBody String userId, @RequestBody String movieId, @RequestBody double rate){
         Movie movie = this.movieRepository.findById(movieId);
         if (movie != null){
             User user = this.userRepository.findById(userId);
-            List<Movie> userMovies = user.getMovies();
-            userMovies.add(movie);
-            user.setMovies(userMovies);
-            this.userRepository.save(user);
+            if (!checkIfMovieIsOnList(userId,movieId)) {
+                    List<MovieRatedByUser> userMovies = user.getMovies();
+                    MovieRatedByUser newOne = new MovieRatedByUser();
+                    newOne.setMovieId(movieId);
+                    newOne.setRate(rate);
+                    newOne.setUserId(userId);
+                    userMovies.add(newOne);
+                    user.setMovies(userMovies);
+                    this.userRepository.save(user);
+            }
         }
     }
 
     @RequestMapping(value = "{id}/movies", method = RequestMethod.GET)
-    public List<Movie> listUserRatedMovies(@PathVariable("id") String id){
+    public List<MovieRatedByUser> listUserRatedMovies(@PathVariable("id") String id){
         return userRepository.findById(id).getMovies();
     }
 
 
-    @RequestMapping(value = "/user/{userId}/movie/{movieid}", method = RequestMethod.PUT )
-    public void updateUserList(@PathVariable("userId") String userId, @PathVariable("movieid") String movieid) {
+    @RequestMapping(value = "/user/{userId}/movie/{movieid}/rate/{rate}", method = RequestMethod.PUT )
+    public void updateUserList(@PathVariable("userId") String userId, @PathVariable("movieid") String movieid, @PathVariable("rate") double rate) {
 
         Movie movie = this.movieRepository.findById(movieid);
         User user = this.userRepository.findById(userId);
-        List<Movie> userMovies = new ArrayList<>();
+        List<MovieRatedByUser> userMovies = new ArrayList<>();
         userMovies = user.getMovies();
 
         if (!checkIfMovieIsOnList(userId,movieid)){
-                userMovies.add(movie);
+                MovieRatedByUser newOne = new MovieRatedByUser();
+                newOne.setMovieId(movieid);
+                newOne.setRate(rate);
+                newOne.setUserId(userId);
+                userMovies.add(newOne);
                 user.setMovies(userMovies);
                 this.userRepository.save(user);
             }
@@ -111,12 +122,12 @@ public class UserController {
 
         User user = this.userRepository.findById(userId);
         Movie movie = this.movieRepository.findById(movieId);
-        List<Movie> userMovies = new ArrayList<>();
+        List<MovieRatedByUser> userMovies = new ArrayList<>();
         userMovies = user.getMovies();
         boolean belongs = false;
         if (movie != null) {
-            for (Movie m : userMovies) {
-                if (m.getId().equals(movieId)) {
+            for (MovieRatedByUser m : userMovies) {
+                if (m.getMovieId().equals(movieId)) {
                     belongs = true;
                 }
             }
